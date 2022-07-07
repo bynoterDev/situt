@@ -1,0 +1,140 @@
+a {
+	text-decoration: none !important;
+}
+
+.aNav {
+	font-size: 17px !important;
+}
+
+body {
+	font-family: 'Arimo', sans-serif !important;
+	background-color: white;
+	overflow-x: hidden;
+}
+
+.bgModal {
+	background-color: rgba(43, 165, 137, 0.45);
+}
+.cardShadow {
+	border-radius: 4px;
+	background-color: white;
+	box-shadow: 0 2px 4px rgba(0,0,0,0.12), 0 2px 4px rgba(0,0,0,0.24);
+}
+.threeD {
+	text-shadow: 1px 3px 0px #000, 1px 13px 5px rgb(171, 168, 168);
+}
+.labEst {
+	font-size: 20px;
+}
+.hovLinkNav:hover {
+	transition: 1s;
+}
+.errorMsg {
+	color: red;
+	font-size: 17px;
+	border-radius: 2px;
+}
+.title {
+	font-size: 70px;
+	color: #187F19;
+	font-weight: bolder;
+}
+.pad10 {
+	padding: 10px;
+}
+.pad30 {
+	padding: 30px;
+}
+.icoIni {
+	margin-right: 10px;
+}
+.icoPri {
+	margin-left: 10px;
+}
+.icoBtnsub {
+	margin-left: 10px;
+}
+.ocutl {
+	display: none;
+}
+.letCol {
+	color: white;
+	font-size: 20px;
+}
+.letCol:hover {
+	color:#187F19;
+	background: white;
+	transition: 1s;
+	border-radius: 4px;
+}
+.marg0 {
+	margin: 0px !important;
+}
+.letBtnPrin {
+	font-size: 19px;
+}
+.fot{
+	margin-right:5px;
+}
+.fotLet {
+	font-size: 20px;
+}
+
+.ocult {
+	display: none !important; 
+}
+
+.iniSes {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.shadowCard {
+	box-shadow: 4px 4px #ddd;
+	transition: .07s;
+}
+
+.shadowCard:hover {
+	transform: scale(1.05,1.05);
+	box-shadow: 4px 4px #eee;
+	/*transform: rotate(-5deg);*/
+}
+
+.shadowCard:hover {
+	color: #17a2b8;
+}
+
+.goodPass {
+	color: green;
+}
+
+.medPass {
+	color: orange;
+}
+
+.badPass {
+	color: red;
+}
+
+@media (min-width: 992px){
+    .sidebar {
+        position: fixed;
+        background-image: url("../../vistas/img/SITUT (1).jpg");
+        background-position: center;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 100; /* Behind the navbar */
+        padding: 0;
+        box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+    }
+    .sidebar-sticky {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0px; /* Height of navbar */
+        height: calc(100vh - 0px);
+        padding-top: .5rem;
+        overflow-x: hidden;
+        overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+    }
+}
+

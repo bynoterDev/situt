@@ -1,0 +1,28 @@
+a {
+	text-decoration: none !important;
+}
+
+.bgModal {
+	background-color: rgba(43, 165, 137, 0.45);
+}
+
+.hovAnim {
+	transition: 0.5s;
+}
+
+.hovAnim:hover {
+	transform: scale(1.03,1.03);
+	/*transform: rotate(-5deg);*/
+}
+
+.tra5 {
+	transition: 0.5s;
+}
+
+.hovTar:hover {
+	transform: scale(1.03,1.03);
+}
+
+.icoRes:hover {
+	color: #1cc88a !important;
+}
